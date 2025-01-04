@@ -1,0 +1,1 @@
+{"name":"Local: 2057A mex table","url":"/home/vivek-sharma/Desktop/codeforces/2057A mex table.cpp","tests":[{"id":1736006731933,"input":"3\n1 1\n2 2\n3 5\n","output":"2\n3\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vivek-sharma/Desktop/codeforces/2057A mex table.cpp","group":"local","local":true}

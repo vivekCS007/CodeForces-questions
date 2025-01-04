@@ -1,0 +1,1 @@
+{"name":"Local: 1832 new palindrome","url":"/home/vivek-sharma/Desktop/codeforces/1832 new palindrome.cpp","tests":[{"id":1735998225294,"input":"3\ncodedoc\ngg\naabaa\n","output":"YES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vivek-sharma/Desktop/codeforces/1832 new palindrome.cpp","group":"local","local":true}
