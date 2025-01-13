@@ -36,46 +36,13 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    
     int t;
     cin >> t;
-    
     while(t--) {
-        int n, k;
-        cin >> n >> k;
-        vi a(n, 0);
-        map<int, int> m;
-        
-        for (int i = 0; i < n; i++) {
-            cin >> a[i];
-            m[a[i]]++;
-        }
-
-        if (k == n) {
-            cout << 1 << endl;
-            continue;
-        }
-        if (k == 0) {
-            cout << m.size() << endl;
-            continue;
-        }
-        vector<int> freq;
-        for (auto &entry : m) {
-            freq.push_back(entry.second);
-        }
-        sort(freq.begin(), freq.end());
-        int u= m.size();
-        int ch = 0;
-        for (int i = 0; i < freq.size(); i++) {
-            if (ch + freq[i] <= k) {
-                ch += freq[i];
-                u--;
-            } 
-            else {
-                break;
-            }
-        }
-        cout << u<< endl;
+        int a,b,n;
+        cin>>n>>a>>b;
+        if (abs(a-b)%2==1) no;
+        else yes;
     }
     return 0;
 }
